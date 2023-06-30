@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+issueTrackerURL = "https://github.com/Aton-Kish/your-reputation/issues"
+license = "MIT"
+
+[[mods]]
+modId = "reputation"
+version = "${version}"
+displayName = "Your Reputation"
+displayURL="https://github.com/Aton-Kish/your-reputation"
+authors = "Aton-Kish"
+description = '''
+Jade / WTHIT plugin that displays your reputation with each villager
+'''
+logoFile = "icon.png"
+
+[[dependencies.reputation]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.reputation]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.reputation]]
+modId = "jade"
+mandatory = true
+versionRange = "[8.0.0,)"
+ordering = "AFTER"
+side = "BOTH"

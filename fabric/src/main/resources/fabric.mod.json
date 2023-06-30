@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "reputation",
+  "version": "${version}",
+
+  "name": "Your Reputation",
+  "description": "Jade / WTHIT plugin that displays your reputation with each villager",
+  "authors": [
+    "Aton-Kish"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Aton-Kish/your-reputation",
+    "sources": "https://github.com/Aton-Kish/your-reputation",
+    "issues": "https://github.com/Aton-Kish/your-reputation/issues"
+  },
+
+  "license": "MIT",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "both": [
+      "atonkish.reputation.fabric.ReputationModFabric"
+    ],
+    "jade": [
+      "atonkish.reputation.fabric.ReputationPluginFabric"
+    ]
+  },
+  "mixins": [
+    "reputation-common.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=1.19.2",
+    "jade": ">=8.0.0"
+  }
+}

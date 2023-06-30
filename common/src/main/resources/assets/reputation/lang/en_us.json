@@ -7,7 +7,7 @@
   "entity.reputation.villager.reputation.hostile": "Hostile",
   "entity.reputation.villager.reputation.unknown": "Unknown",
   "entity.reputation.iron_golem.angry": "Angry",
-  "config.jade.plugin_reputation.iron_golem": "Iron Golem anger",
+  "config.jade.plugin_reputation.iron_golem": "Iron Golem Anger",
   "config.jade.plugin_reputation.villager_reputation": "Reputation",
-  "config.jade.plugin_reputation.villager_snitch": "Villager snitching"
+  "config.jade.plugin_reputation.villager_snitch": "Snitches"
 }
